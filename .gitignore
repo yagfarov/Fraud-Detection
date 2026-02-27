@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# CatBoost
+catboost_info/
+
+# Model artifacts
+model/*.cbm
+
+# Docker
+*.tar
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage
+.coverage
+htmlcov/
+
+# Config secrets (если будут)
+secrets.yaml
